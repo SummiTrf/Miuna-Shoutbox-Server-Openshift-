@@ -1,4 +1,5 @@
-var	port = process.env.OPENSHIFT_NODEJS_PORT,
+var origin = 'raidforums.com:80,www.raidforums.com:80';
+
 	ip = process.env.OPENSHIFT_NODEJS_IP;
 
 var http = require('http'),
